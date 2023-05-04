@@ -1,0 +1,343 @@
+/*
+    General document styles
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/* set a variable with the document font size */
+:root {
+    --font-size: 12px;
+}
+
+
+/* Basic HTML styling */
+body {
+    font-size: var(--font-size, 12px);
+    /* line-height: 1.1; */
+    color: #333;
+    background-color: #fff;
+}
+
+/* Large body text */
+/* and avoid page breaks in text elements */
+p,
+li,
+ul,
+ol,
+li {
+    /* font-size: 1.5em; */
+    /* prevent page break */
+    page-break-inside: avoid;
+}
+
+/* Center text on first page */
+.cover-page {
+    text-align: center;
+}
+
+/* Add in a thin black border */
+.bordered {
+    border: 1px solid black;
+}
+
+/* Show borders on tables */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Avoid Breaks in rows */
+tr {
+    page-break-inside: avoid;
+}
+
+/* table {
+    margin-top: 10em;
+} */
+
+/* Table and column sizing */
+table {
+    table-layout: fixed;
+    width: 100%;
+    /* width: calc(100% + 1.5in);
+    margin-left: -0.75in;
+    margin-right: +0.75in; */
+    margin-top: 1em;
+}
+
+td p {
+    /* margin: 1em; */
+    margin: 0.5em;
+}
+
+/* Left align text */
+th,
+td {
+    text-align: left;
+}
+
+td {
+    /* height: 4em; */
+    height: 0.8in;
+    /* font-size: small; */
+    /* font-size: 0.5em; */
+    font-size: 1em;
+}
+
+th {
+    padding: 0.5em;
+    /* padding-left: 1em; */
+}
+
+
+/* cards */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.card {
+    margin-bottom: 10px;
+    /* image width */
+    width: 4in;
+}
+
+.card img {
+    object-fit: cover;
+    /* image height */
+    height: 2.8in;
+}
+
+
+/* center .cards inside of parent div */
+/* ... */
+
+
+/* Set sizing for the tables */
+
+.card thead,
+.card td {
+    height: 1em;
+}
+
+thead,
+thead td {
+    height: 1em;
+}
+
+/* set the size of row 2 */
+.card tbody tr:nth-child(1) {
+    height: 2in;
+}
+
+/* set the size of row 3 */
+.card tbody tr:nth-child(2) {
+    height: 0.5in;
+}
+
+
+.card td {
+    text-align: center;
+}
+
+/* remove space around the image */
+.card td {
+    padding: 0;
+    margin: 0;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+/* 
+    --- --- --- --- --- --- --- --- --- --- --
+    |    Paged.js specific styles (below)    |
+    --- --- --- --- --- --- --- --- --- --- --
+*/
+
+
+/* CSS to make A4 print preview as default web view */
+/* @media screen {
+    .pagedjs_pages {
+        display: flex;
+        width: calc(var(--pagedjs-width));
+        flex: 0;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+
+    .pagedjs_page,
+    pagedjs_pagebox {
+        margin: 10mm;
+        border: solid 1px gray;
+        background-color: white;
+    }
+} */
+
+
+
+/* Letter-size pages */
+@page {
+    /* size: A4; */
+    size: letter;
+    margin-top: 1.4in;
+    margin-left: 1in;
+    margin-right: 1in;
+    /* margin-bottom: 0.75in; */
+    margin-bottom: 1in;
+    /* margin-left: 0.3in;
+    margin-left: 0.3in; */
+}
+
+
+
+/* Page Breaks */
+.page-break {
+    break-after: page;
+}
+
+/* Avoid Breaks */
+.avoid-breaks {
+    page-break-inside: avoid;
+}
+
+
+/* Page-count reset */
+.counter-reset {
+    counter-reset: page 1;
+}
+
+
+/* cover page styling */
+.cover-page {
+    page: cover-page;
+    /* fit more content */
+    line-height: 1.1;
+}
+
+@page cover-page {
+    /* @page: first { */
+    /* background-color: #34bd52; */
+    /* color: white; */
+
+    /* margin-top: calc(100% + 0.25in); */
+
+    /* @content {
+        margin-top: calc(100% + 5em);
+    } */
+
+    @top-right {
+        content: none;
+        content: "Client: John Doe\AReport Date: 01-21-2023";
+        /* font-size: large; */
+        /* margin-left: 0.5in;
+        margin-right: -0.5in; */
+        margin-right: -0.5in;
+    }
+
+    @top-left {
+        content: none;
+    }
+
+    /* show five boro mold logo */
+    /* @top-left-corner {
+        background-image: url("pdf-000.png");
+        padding-right: 333px;
+        padding-bottom: 234px;
+        content: "";
+        scale: 0.5;
+        margin-left: -0.5in;
+        margin-top: -0.25in;
+    } */
+    @top-left-corner {
+        display: block;
+        scale: 0.55;
+    }
+
+    @bottom-left {
+        content: none;
+    }
+
+    @bottom-right {
+        content: none;
+    }
+
+    @bottom-center {
+        content: none;
+    }
+
+    /* @bottom-center {
+        content: "FIVE BORO MOLD SPECIALIST, INC. • 394 Marcy Avenue, #1L Brooklyn NY 11206 718.677.MOLD(6653) • Fax: 718.677.6656 \A E-mail: info@fiveboromoldspecialist.com • www.FiveBoroMoldSpecialist.com";
+        margin-left: -0.7in;
+        margin-right: -0.7in;
+        white-space: pre-wrap;
+    } */
+}
+
+
+
+/* Company header & Logo */
+@page {
+
+    /* https://stackoverflow.com/a/20836900/4789202 */
+    @top-left-corner {
+        display: block;
+        /* width: 20px;
+        height: 10px; */
+        content: url("pdf-000.png");
+        scale: 0.35;
+    }
+
+    @top-right {
+        content: "Far Rockaway, NY 11692\A (212)-690-4500";
+        /* font-size: large; */
+        font-family: sans-serif;
+        text-align: right;
+        white-space: pre-wrap;
+        /* width: fit-content; */
+        /* margin-left: +0.5in; */
+        /* margin-right: -2in; */
+        margin-right: -0.5in;
+    }
+}
+
+
+@page {
+    @bottom-center {
+        content: "Copyright © 2022 - Five Boro Mold Specialist";
+        margin-left: -0.5in;
+        margin-right: -0.5in;
+    }
+}
+
+
+/* Page-number footer */
+@page {
+    @bottom-right {
+        content: counter(page);
+        font-family: sans-serif;
+    }
+}
+
+
+
+@import url("paged_interface.css")

@@ -1,0 +1,25 @@
+# Generated PDF's
+*.pdf
+
+# Node modules/configs
+node_modules
+pnpm-lock.yaml
+
+# VS Code configs
+.vscode
+
+# Cookies, etc.
+*_cake.txt
+CL_token.json
+*.har
+
+# Backup files
+*.zip
+*.zip.txt
+
+# OLD HTML files, etc
+OutDocument
+*Monkey.html
+
+# temp code runners
+temp*

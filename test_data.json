@@ -1,0 +1,128 @@
+{
+    "clientName": "John Doe",
+    "clientAddress": "Far Rockaway, NY 11692",
+    "clientPhoneNumber": "(212)-690-4500",
+    "reportDate": "01-21-2023",
+    "personOnSight": "John Dillon",
+    "odorPresent": "Yes",
+    "rows": [
+        "1111111",
+        "2222222",
+        "3333333"
+    ],
+    "tableData": {
+        "item1": [
+            "Lorem ipsum",
+            "dolor sit",
+            "amet, consectetur adipiscing",
+            "elit, sed do"
+        ],
+        "item2": [
+            "labore",
+            "et",
+            "dolore",
+            "magna"
+        ],
+        "item3": [
+            "aliqua.",
+            "Ut",
+            "enim",
+            "ad"
+        ],
+        "item4": [
+            "minim",
+            "veniam,",
+            "quis",
+            "nostrud"
+        ],
+        "item5": [
+            "exercitation",
+            "ullamco",
+            "laboris",
+            "nisi ut"
+        ]
+    },
+    "infraredImages": [
+        {
+            "img_url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1676493622-Israel-Landscape-49625-MOVDATA.jpg",
+            "img_name": "Image 1",
+            "img_description": "Infrared Image 1 - Description"
+        },
+        {
+            "img_url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1676815639-toa-heftiba-QUeJRmJTzT0-unsplash.jpg",
+            "img_name": "Image 2",
+            "img_description": "Infrared Image 2 - Description"
+        },
+        {
+            "img_url": "",
+            "img_name": "Image 3",
+            "img_description": "Infrared Image 3 - Description"
+        },
+        {
+            "img_url": "",
+            "img_name": "Image 4",
+            "img_description": "Infrared Image 4 - Description"
+        },
+        {
+            "img_name": "Image 5",
+            "img_description": "Infrared Image 5 - Description"
+        },
+        {
+            "img_url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1676493625-Israel-Landscape-Wallpaper-Ref-no-landscape-029-arad.jpg",
+            "img_name": "Image 6",
+            "img_description": "Infrared Image 6 - Description"
+        },
+        {
+            "img_url": "",
+            "img_name": "Image 7",
+            "img_description": "Infrared Image 7 - Description"
+        },
+        {
+            "img_url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1676815611-pisit-heng-ci1F55HaVWQ-unsplash.jpg",
+            "img_name": "Image 8",
+            "img_description": "Infrared Image 8 - Description"
+        }
+    ],
+    "observationsData": [
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1676815639-toa-heftiba-QUeJRmJTzT0-unsplash.jpg",
+            "title": "Image 1",
+            "description": "Observation 1"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1676815641-laura-siegal-ZQ9Ppuf2RzM-unsplash.jpg",
+            "title": "Image 2",
+            "description": "Observation 2"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1677244423-erda-estremera-0ZxdAGG4aWU-unsplash.jpg",
+            "title": "Image 3",
+            "description": "Observations and Image description 3"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1677244435-dan-gold-RfDlcSPqI-4-unsplash.jpg",
+            "title": "Image 4",
+            "description": "Observations and Image description 4"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1677244423-laura-siegal-6d1KujNzug-unsplash.jpg",
+            "title": "Image 5",
+            "description": "Observations and Image description 5"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1677244413-christian-burri-KYizXnIFxqQ-unsplash.jpg",
+            "title": "Image 6",
+            "description": "Observations and Image description 6"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1677244423-bruno-aguirre-TgUs0JOtXZA-unsplash.jpg",
+            "title": "Image 7",
+            "description": "Observations and Image description 7"
+        },
+        {
+            "url": "https:\/\/8232-application-data-2273.s3.amazonaws.com\/Z9Q2gMmj2m\/1677108499-benjamin-grull-j3-zQFDGRqs-unsplash.jpg",
+            "title": "Image 8",
+            "description": "Observations and Image description 8"
+        }
+    ]
+}

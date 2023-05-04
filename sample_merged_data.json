@@ -1,0 +1,172 @@
+{
+    "report": {
+        "date": "2023-01-21",
+        "cover_page_image": "https://ik.imagekit.io/zo64ajdop/tr:n-cover_photo/Z9Q2gMmj2m/1674350477-IMG-1905.jpg"
+    },
+    "client": {
+        "name": "Test Client 2",
+        "address": "14 Nussbaum Avenue",
+        "location": "Lakewood, NJ 08701",
+        "phone_number": "0748776789"
+    },
+    "signs_of_mold": {
+        "person_on_sight": "Yossi Brieger",
+        "location": "Basement Open Area, Attic, Bathroom",
+        "odor_type": "Moldy",
+        "odor_present": "Yes",
+        "air_sample": "Yes"
+    },
+    "visual_assessment": [
+        {
+            "room": "Basement open area #1",
+            "location": "Throughout the floor",
+            "color": "Evidence of visual mold growth was noted in white clusters",
+            "test": "Air sample taken"
+        },
+        {
+            "room": "Basement open area #2",
+            "location": "Throughout the central a/c unit",
+            "color": "Black clusters of mold were noted",
+            "test": "No"
+        },
+        {
+            "room": "Office #1",
+            "location": "Throughout the central a/c unit",
+            "color": "Evidence of visual mold growth was noted in white clusters",
+            "test": "No"
+        },
+        {
+            "room": "Office #2",
+            "location": "Throughout the central a/c unit",
+            "color": "Evidence of visual mold growth was noted in brown clusters",
+            "test": "No"
+        },
+        {
+            "room": "Air sample taken",
+            "location": "Test",
+            "color": "Throughout the central a/c unit",
+            "test": "No"
+        },
+        {
+            "room": "Swab taken from area",
+            "location": "test",
+            "color": "Throughout the central a/c unit",
+            "test": "No"
+        },
+        {
+            "room": "Air sample taken",
+            "location": "",
+            "color": "Throughout the central a/c unit",
+            "test": "No"
+        },
+        {
+            "room": "Black clusters of mold were noted",
+            "location": "",
+            "color": "Test",
+            "test": "No"
+        }
+    ],
+    "mold_damage_data": [
+        {
+            "room": "Attic",
+            "location": "On the right wall",
+            "damage": "Around",
+            "type": "Discoloration"
+        },
+        {
+            "room": "Bathroom(s) on the 1st floor",
+            "location": "On the left wall",
+            "damage": "In",
+            "type": "Crack(s) and/or gaps(s)"
+        },
+        {
+            "room": "Master bedroom",
+            "location": "Throughout the soffit on the front wall",
+            "damage": "Around",
+            "type": "Discoloration"
+        },
+        {
+            "room": "Storage room",
+            "location": "Throughout the central a/c unit",
+            "damage": "Behind",
+            "type": "Crack(s0 and/or gap(s)"
+        }
+    ],
+    "images_infrared": [
+        {
+            "url": "https://ik.imagekit.io/zo64ajdop/tr:n-scale_down_600/Z9Q2gMmj2m/1674350415-IMG-1903.jpg",
+            "title": "Image 1",
+            "description": "Test"
+        },
+        {
+            "url": "https://ik.imagekit.io/zo64ajdop/tr:n-scale_down_600/Z9Q2gMmj2m/1674350430-IMG-1903.jpg",
+            "title": "Image 2",
+            "description": "test"
+        },
+        {
+            "url": "https://ik.imagekit.io/zo64ajdop/tr:n-scale_down_600/Z9Q2gMmj2m/1674350419-IMG-1906.jpg",
+            "title": "Image 6",
+            "description": ""
+        }
+    ],
+    "observations_and_images": [
+        {
+            "url": "https://ik.imagekit.io/zo64ajdop/tr:n-scale_down_600/Z9Q2gMmj2m/1674350430-IMG-1903.jpg",
+            "title": "Image 1",
+            "description": "test"
+        },
+        {
+            "url": "https://ik.imagekit.io/zo64ajdop/tr:n-scale_down_600/Z9Q2gMmj2m/1674350431-IMG-1905.jpg",
+            "title": "Image 2",
+            "description": "tesr"
+        }
+    ],
+    "moisture_concerns": {
+        "type": "Moderate Moisture Content",
+        "room_name": "123",
+        "location_in_the_room": "123",
+        "specific_area": "Left exterior portion of the property",
+        "source": "www",
+        "cause": "Condensation buildup, due to wet",
+        "previous": "Yes",
+        "repaired": "Yes"
+    },
+    "remediation_outline": {
+        "process_outline": "1223",
+        "locations": [
+            "Bathroom Vent",
+            "Heating Unit(s)",
+            "Window A/C Unit(s)"
+        ],
+        "throughout": "Full 1st Floor"
+    },
+    "treatment_process": {
+        "steps": [
+            "Window A/C unit(s) should be completely filter to rid the unit(s) of any mold and/or fungi present to while preventing cross contamination of airborne mols spores throughout",
+            "Entire work area should be closely inspected on high wattage lighting. Any construction defects should be recorded and treated if possible"
+        ],
+        "dehumidifier": "time"
+    },
+    "sampling_data": [
+        {
+            "room": "Guest Bedroom",
+            "mold_type": "Memononella, Aspergillus/Penicillium, Aspergillus, Ascospores"
+        },
+        {
+            "room": "Guest Bedroom",
+            "mold_type": "Ulacladium, Epicoccum"
+        },
+        {
+            "room": "Guest Bedroom",
+            "mold_type": "Bipolarism/Drechslera, Aspergillus/Penicillium, Stachybotrys, Ulocladium, Bipolarism"
+        },
+        {
+            "room": "Master Bedroom",
+            "mold_type": "Myxomycetes, Drechslera, Bipolarism/Drechslera, Ascospores, Aspergillus"
+        },
+        {
+            "room": "Yes",
+            "mold_type": ""
+        }
+    ]
+}
