@@ -1,6 +1,6 @@
+#! deno run --allow-net --allow-read
+
 // Simple command-line utility that fetches the contents (code) from the TadaBase backend and displays it in the console
-
-
 
 const appID = "YZjnq9mQPv";
 const pipeID = "698rd2QZwd";

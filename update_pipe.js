@@ -1,3 +1,5 @@
+#! deno run --allow-read --allow-net
+
 // updates a tada pipe with the code in "tada_js.js"
 
 import { fetchTada } from "./fetch_tada.js";
@@ -8,13 +10,16 @@ import { fetchTada } from "./fetch_tada.js";
 // const appID = "Z9Q2gMmj2m";
 // const pipeID = "698rd2QZwd";
 // https://build.tadabase.io/apps/manage/YZjnq9mQPv/pipes/698rd2QZwd/api-calls
-const appID = "YZjnq9mQPv";  // Gabriella's app
-const pipeID = "698rd2QZwd"; // Gabriella's pipe
+const appID = "YZjnq9mQPv";  // Gabriela's app
+const pipeID = "698rd2QZwd"; // Gabriela's pipe
 
 const pipeSection = "1";
 
-// load file "tada_js.js" as a string
-const jsCode = await Deno.readTextFile("./tada_js.js");
+import { getMergedJSCode } from "./tada_merge_scripts.js"
+
+// load file "tada_js_merged.js" as a string
+// const jsCode = await Deno.readTextFile("./tada_js_merged.js");
+const jsCode = await getMergedJSCode();
 
 // load the pipe-update json file
 const body = await Deno.readTextFile("pipe_body.json");

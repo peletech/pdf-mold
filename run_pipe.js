@@ -1,7 +1,9 @@
+#! deno run --allow-net --allow-read
+
 import { fetchTada } from "./fetch_tada.js";
 
-// const appID = "Z9Q2gMmj2m";  // Gerch's app
-const appID = "YZjnq9mQPv";  // Gabriella's app
+// const appID = "Z9Q2gMmj2m";  // Gerchak's app
+const appID = "YZjnq9mQPv";  // Gabriela's app
 const pipeID = "698rd2QZwd";
 
 let param1, param2, param3, param4;
@@ -13,7 +15,7 @@ let param1, param2, param3, param4;
 
 // default to the default arguments
 param1 = param1 || "K2ejlOQo9B"; // Data-table ID
-param2 = param2 || "W0VNq8rmlK"; // Record ID
+param2 = param2 || "oGWN5eqNlA"; // Record ID
 // param2 = param2 || "m72NpJojwv"; // Record ID
 param3 = param3 || "False";
 // param4 = param4 || "False";

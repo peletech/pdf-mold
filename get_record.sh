@@ -1,9 +1,17 @@
 # Various curl requests for fetching and updating data using the official TadaBase API's
 
 
-# Get a specific Record:
+# Get a specific record (report):
 curl \
-    -X 'GET' 'https://api.tadabase.io/api/v1/data-tables/K2ejlOQo9B/records/oGWN5eqNlA' \
+    -X 'GET' 'https://api.tadabase.io/api/v1/data-tables/K2ejlOQo9B/records/W0VNq8rmlK' \
+    -H 'x-tadabase-app-id: YZjnq9mQPv' \
+    -H 'x-tadabase-app-key: biyiNNR4Qwch' \
+    -H 'x-tadabase-app-secret: B2ktYuclnwuBqbtRsKV7S4XIEAEJt3Wm'
+
+
+# Get a specific record (client):
+curl \
+    -X 'GET' 'https://api.tadabase.io/api/v1/data-tables/eykNOvrDY3/records/3GDN1mNeqP' \
     -H 'x-tadabase-app-id: YZjnq9mQPv' \
     -H 'x-tadabase-app-key: biyiNNR4Qwch' \
     -H 'x-tadabase-app-secret: B2ktYuclnwuBqbtRsKV7S4XIEAEJt3Wm'
